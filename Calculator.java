@@ -1,5 +1,33 @@
 import java.util.Scanner;
 
+/**
+ * Calculator - A comprehensive Java calculator application with basic and scientific operations.
+ * 
+ * This class provides static methods for performing arithmetic, power, and trigonometric calculations.
+ * It includes a menu-driven command-line interface that allows users to interactively select and
+ * execute various mathematical operations.
+ * 
+ * Basic Operations:
+ * - add(double a, double b): Returns the sum of two numbers
+ * - subtract(double a, double b): Returns the difference of two numbers
+ * - multiply(double a, double b): Returns the product of two numbers
+ * - divide(double a, double b): Returns the quotient; throws ArithmeticException if divisor is zero
+ * - modulo(double a, double b): Returns the remainder; throws ArithmeticException if divisor is zero
+ * - power(double base, double exp): Returns base raised to the power of exp
+ * - sqrt(double a): Returns the square root; throws ArithmeticException if input is negative
+ * 
+ * Scientific Operations:
+ * - sin(double a): Returns the sine of angle in degrees
+ * - cos(double a): Returns the cosine of angle in degrees
+ * - tan(double a): Returns the tangent of angle in degrees; throws ArithmeticException if undefined
+ * - log10(double a): Returns the base-10 logarithm; throws ArithmeticException if input is non-positive
+ * - ln(double a): Returns the natural logarithm; throws ArithmeticException if input is non-positive
+ * - factorial(double a): Returns the factorial of a non-negative integer; throws ArithmeticException if invalid
+ * - abs(double a): Returns the absolute value of a number
+ * 
+ * @author Calculator Application
+ * @version 1.0
+ */
 public class Calculator {
 
     static double add(double a, double b) { return a + b; }
